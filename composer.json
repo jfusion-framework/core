@@ -7,7 +7,7 @@
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.10",
-        "jfusion/dslo": ">=1.0",
+        "jfusion/dslo": ">=0.1",
         "jfusion/plugin": ">=1.0",
         "jfusion/parser": ">=1.0",
         "jfusion/debugger": ">=1.0",
