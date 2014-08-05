@@ -14,7 +14,6 @@
 	 */
 
 use JFusion\Dslo\Cookies;
-use JFusion\Debugger\Debugger;
 use JFusion\Plugin\Plugin_Front;
 use JFusion\Plugin\Plugin_Admin;
 use JFusion\Plugin\Plugin_Auth;
@@ -507,52 +506,6 @@ class Factory
 		}
 		return $instance;
 	}
-
-	/**
-	 * @param string $jname
-	 *
-	 * @return Debugger
-	 */
-	public static function &getDebugger($jname)
-	{
-		static $instances;
-
-		if (!isset($instances)) {
-			$instances = array();
-		}
-
-		if (!isset($instances[$jname])) {
-			$instances[$jname] = new Debugger();
-		}
-		return $instances[$jname];
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	/**
 	 * Get a database object.
