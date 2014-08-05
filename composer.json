@@ -1,7 +1,7 @@
 {
     "name": "jfusion/core",
     "type": "jfusion-framework",
-    "description": "JFusion Framework core related",
+    "description": "JFusion Framework core related.",
     "keywords": ["jfusion", "framework", "core"],
     "homepage": "https://github.com/jfusion-framework/core",
     "license": "GPL-2.0+",
