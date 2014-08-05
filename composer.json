@@ -8,9 +8,9 @@
     "require": {
         "php": ">=5.3.10",
         "jfusion/debugger": "~1.0",
-        "jfusion/dslo": ">=0.1",
-        "jfusion/plugin": ">=0.1",
-        "jfusion/user": ">=0.1",
+        "jfusion/dslo": "~1.0",
+        "jfusion/plugin": "~1.0",
+        "jfusion/user": "~1.0",
         "joomla/event": "~1.0",
         "joomla/language": "~1.0",
         "joomla/database": "~1.0",
@@ -23,6 +23,5 @@
         "psr-4": {
             "JFusion\\Core\\": "src/"
         }
-    },
-    "minimum-stability" : "dev"
+    }
 }
