@@ -25,5 +25,5 @@
             "JFusion\\Core\\": "src/"
         }
     },
-    "minimum-stability" : "beta"
+    "minimum-stability" : "dev"
 }
